@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+<title> Rhys's Blog </title>
+<link rel="icon" type="image/x-icon" href="Rhys.jpg">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+
+<style>
+box {
+background-color: lightgrey;
+
+padding: 50px;
+margin: 40px;
+box-sizing:border-box;
+
+</style>
+</head>
+<body>
+<header id="header"> 
+<div class="container">
+	<h1>Rhys's Blog</h1>
+</div>
+
+
+<nav id="navbar">
+<div class="container">
+<ul>
+	<li><a href="#"><strong>Home</strong></a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Contact</a></li>
+</ul>
+</div>
+</nav>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section id="main">
+
+<box> If you are a Pixel 6 owner who didn't get the March 2022 update, we MAY have good news for you, as a release date of March 21st has been published by a Canadian cell provider.</box>
+</div>
+
+<footer id="main-footer">
+<div class="container">
+<h1> made by Rhys Davies</h1>
+</div>
+
+
+
+</body>
+</html>
