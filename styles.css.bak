@@ -15,7 +15,8 @@ text-align:center;}
 background-color:transparent;
 color:#yellow;
 text-align:center;
-
+position: -webkit-sticky;
+position: sticky;}
 
 #main-footer{
 position: fixed;
@@ -26,8 +27,7 @@ background-color: black;
 color: white;
 text-align: center;
 text-size: 15px;}	
-position: -webkit-sticky;
-position: sticky;}
+
 
 #main{
 float:left;
