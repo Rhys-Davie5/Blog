@@ -1,6 +1,7 @@
 /* Default styles for the browser */
 *{
-	background-color:black;
+	
+	background-color: black;
 	
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@
     text-decoration: none;
 	color:white;
 }
+
 
 header{
     width: 100vw;
@@ -79,16 +81,70 @@ header nav .button:hover{
     filter: brightness(1.05);
 }
 
+.main{
+	float:left;
+	text-align:left;
+	padding:0px;
+	margin:20px;
+	font-size: 70px;
+}
 
+.sidebar{
+float:right;
+width:30%;
+background-color:blue;
+color:white;
+padding:10px;
+box-sizing:border-box;
+}
 
+.main-footer{
+ position: fixed;
+ padding-bottom:5px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
 
+.fade-in-text {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150px;
+  color: black;
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
+}
 
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
 
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
 
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
 
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
 
-
-
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  
 
 @media (max-width:1400px) {
 
@@ -104,18 +160,21 @@ header .inner{
     display: block;
     margin: 0 auto;
 	
+	
 }
 
 header .logo{
     display: table;
     height: 100%;
-    float: left;
+    float: left
 }
 
 header .logo div{
     height: 100%;
     display: table-cell;
     vertical-align: middle;
+	padding:0px;
+	margin:0px;
 }
 
 header .logo img{
@@ -161,8 +220,54 @@ header nav .button:hover{
 }
 	
 .main{
-	text-align:left;
+float:left;
+text-align:left;
+padding:0px;
+margin:20px;
+font-size: 100px;
 }
+
+.fade-in-text {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150px;
+  color: black;
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  
+
+
+
+
+
+
 
 
 @media (max-width:2000px) {
@@ -175,7 +280,7 @@ header{
 }
 
 header .inner{
-    width: 510px; /* This is the inner width of the content inside of your header (80%, etc) */
+    width: 511px; /* This is the inner width of the content inside of your header (80%, etc) */
     height: 100%;
     display: block;
     margin: 0 auto;
@@ -192,6 +297,8 @@ header .logo div{
     height: 100%;
     display: table-cell;
     vertical-align: middle;
+	padding:0px;
+	margin:0px;
 }
 
 header .logo img{
@@ -237,5 +344,56 @@ header nav .button:hover{
 }
 	
 .main{
+	float:left;
 	text-align:left;
+	padding:0px;
+	margin:30px;
+	font-size: 60px;
+	
 }
+
+.sidebar{
+float:right;
+width:30%;
+background-color:blue;
+color:white;
+padding:10px;
+box-sizing:border-box;
+}
+
+
+.fade-in-text {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150px;
+  color: black;
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  
