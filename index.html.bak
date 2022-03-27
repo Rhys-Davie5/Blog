@@ -1,53 +1,46 @@
 <!DOCTYPE html>
 <html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8" />
-	<title> Rhys Umbrella </title>
-	<link rel="icon" type="image/x-icon" href="Rhys.jpg">
-	<link rel="stylesheet" type="text/css" href="rain.css">
+<title> Rhys's Blog </title>
+<link rel="icon" type="image/x-icon" href="Rhys.jpg">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css">
+
 </head>
 <body>
-	<header id="main-header">
-		<div class="container">
-		<h1> The umbrella corperation </h1>
-	</div>
-	</header>
-	
+<div class="container">
+	<header id="main-header"> 
+	<h1>Rhys's Blog</h1>
 	<nav id="navbar">
-		<div class="container">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Weather</a></li>
-			<li><a href="#">Products</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
-	
-	<section id="showcase">
-		<div class="container">
-<h1> This is the banner of the website </h1>
-		</div>
-	</section>
-
-		<div class="container">
-			<section id="main">
-				<h1> Dont rain on my parade </h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet arcu non pellentesque iaculis. Etiam maximus sed dui nec porttitor. Donec eget pretium dolor. Nam odio eros, egestas ac metus a, dignissim consectetur mi. Praesent consequat tincidunt ipsum, pulvinar luctus nunc luctus in. In a quam elit. Aenean vulputate, mi vel imperdiet finibus, nibh ante interdum libero, at pulvinar purus erat sed nisl. Donec dui ligula, dapibus in vestibulum id, mattis sed lacus. Vestibulum condimentum felis sed enim mattis malesuada. Morbi et nisi ac nisi molestie tempus. Donec et arcu bibendum, finibus tellus id, vulputate leo. In hac habitasse platea dictumst. Maecenas tincidunt, eros eget iaculis imperdiet, odio nisi dapibus arcu, ac malesuada lectus erat ac tortor. Proin ac condimentum sapien, aliquam posuere lacus. Etiam sollicitudin vel nulla ut mattis.</p>
-		</section>
-	
-	<aside id="sidebar">
-	<p> sdhfiusdhdiuvbsbvis test test </p>
-	</aside>
-	
-</div>		
-		
-	<footer id="main-footer">
-	<p> Copyright &copy: 2022 Resident Evil lol </p>
-	</footer>
+	<ul>
+	<li><a href="#"><strong>Home</strong></a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Contact</a></li>
+	</ul>
+</nav>	
 </div>
+</header>
+
+
+
+<br>
+<br>
+<br>
+
+<section id="main">
+<boxmodel> If you are a Pixel 6 owner who didn't get the March 2022 update, we MAY have good news for you, as a release date of March 21st has been published by a Canadian cell provider.</boxmodel>
+</div>
+</section>
+
+<footer id="main-footer">
+<div class="container">
+<h1> made by Rhys Davies</h1>
+</div>
+</footer>
+
 
 </body>
-
 </html>
