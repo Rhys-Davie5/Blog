@@ -19,8 +19,8 @@
             </div>
 			
             <nav>
-				<li><span><a href="">Home</a></span></li>
-                <li><span><a href="">About</a></span></li>
+				<li><span><a href="index.html">Home</a></span></li>
+                <li><span><a href="about.html">About</a></span></li>
                 <li><span><a href="">Work</a></span></li>
                 <li><span><a href="">History</a></span></li>
                 <li><span><a href="">Contact</a></span></li>
@@ -32,7 +32,7 @@
 <!-- Main text -->
 
 <div class="fade-in-text">
-	<h1>  Dont stop the music! </h1>
+	<h1>  About Spotify </h1>
 	</section>
 </div>
 </div>

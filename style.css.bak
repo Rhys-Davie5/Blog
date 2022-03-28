@@ -2,7 +2,6 @@
 *{
 	
 	background-color: black;
-	
     margin: 0;
     padding: 0;
     list-style: none;
@@ -15,12 +14,11 @@ header{
     width: 100vw;
     height: 100px;
     border-bottom: solid 1px rgba(16, 16, 16, 0.1);
-    font-family: 'Poppins';
 	
 }
 
 header .inner{
-    width: 1300px; /* This is the inner width of the content inside of your header (80%, etc) */
+    width: 1000px; /* This is the inner width of the content inside of your header (80%, etc) */
     height: 100%;
     display: block;
     margin: 0 auto;
@@ -85,8 +83,8 @@ header nav .button:hover{
 	float:left;
 	text-align:left;
 	padding:0px;
-	margin:20px;
-	font-size: 70px;
+	margin:10px;
+	font-size: 100px;
 }
 
 .sidebar{
@@ -113,8 +111,7 @@ box-sizing:border-box;
 .fade-in-text {
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 150px;
-  color: black;
+  color: transparent;
   animation: fadeIn linear 3s;
   -webkit-animation: fadeIn linear 3s;
   -moz-animation: fadeIn linear 3s;
@@ -144,9 +141,10 @@ box-sizing:border-box;
 
 @-ms-keyframes fadeIn {
   0% {opacity:0;}
+}
   
 
-@media (max-width:1400px) {
+@media (max-width:1100px) {
 
 header{
     width: 100vw;
@@ -155,12 +153,11 @@ header{
 }
 
 header .inner{
-    width: 600px; /* This is the inner width of the content inside of your header (80%, etc) */
+    width: 1200px; /* This is the inner width of the content inside of your header (80%, etc) */
     height: 100%;
     display: block;
     margin: 0 auto;
-	
-	
+
 }
 
 header .logo{
@@ -183,16 +180,18 @@ header .logo img{
 }
 
 header nav{
-    float: right;
+    float: left;
     height: 100%;
+	margin: 0px;
+	padding: 0px;
 	
 }
 
 header nav li{
     display: table;
     height: 100%;
-    float: left;
-    margin-right: 30px;
+    float: center;
+    margin-right: 20px;
 }
 
 header nav li:last-of-type{
@@ -211,7 +210,7 @@ header nav a{
 header nav .button{
     background-color: #1ab26b; /* This HEX is the color of the button */
     color: white;
-    padding: 10px 20px;
+    padding: 1px 1px;
     border-radius: 4px;
 }
 
@@ -224,13 +223,12 @@ float:left;
 text-align:left;
 padding:0px;
 margin:20px;
-font-size: 100px;
+font-size: 60px;
 }
 
 .fade-in-text {
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 150px;
   color: black;
   animation: fadeIn linear 2s;
   -webkit-animation: fadeIn linear 2s;
@@ -263,116 +261,88 @@ font-size: 100px;
   0% {opacity:0;}
   
 
-
-
-
-
-
-
-
-@media (max-width:2000px) {
+@media (max-width:1700px) {
 	
 header{
     width: 100vw;
     height: 100px;
-    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
- 
-}
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);}
 
 header .inner{
-    width: 511px; /* This is the inner width of the content inside of your header (80%, etc) */
+    width: 311px; /* This is the inner width of the content inside of your header (80%, etc) */
     height: 100%;
     display: block;
-    margin: 0 auto;
-	
-}
+    margin: 0 auto;}
 
 header .logo{
     display: table;
     height: 100%;
-    float: left;
-}
+    float: center;}
 
 header .logo div{
     height: 100%;
     display: table-cell;
     vertical-align: middle;
 	padding:0px;
-	margin:0px;
-}
+	margin:0px;}
 
 header .logo img{
     height: 50px;
-    margin-top: 0px; /* Optical alignment of the logo */
-}
+    margin-top: 0px; /* Optical alignment of the logo */}
 
 header nav{
-    float: center;
-    height: 100%;
-	
-}
+    float: left;
+    height: 100%;}
 
 header nav li{
     display: table;
     height: 100%;
     float: left;
-    margin-right: 0px;
-}
+    margin-right: 0px;}
 
 header nav li:last-of-type{
-    margin-right: 0;
-}
+    margin-right: 0;}
 
 header nav span {
     display: table-cell;
-    vertical-align: middle;
-}
+    vertical-align: middle;}
 
 header nav a{
-    color:white; /* turns link text white  *|
-}
+    color:white; /* turns link text white  *|}
 
 header nav .button{
     background-color: #1ab26b; /* This HEX is the color of the button */
     color: white;
     padding: 10px 20px;
-    border-radius: 4px;
-}
-
+    border-radius: 4px;}
 header nav .button:hover{
-    filter: brightness(1.05);
-}
+    filter: brightness(1.05);}
 	
 .main{
-	float:left;
-	text-align:left;
-	padding:0px;
-	margin:30px;
-	font-size: 60px;
-	
-}
+float:left;
+text-align:left;
+padding:0px;
+margin:10px;
+font-size: 10px;}
 
-.sidebar{
-float:right;
-width:30%;
-background-color:blue;
-color:white;
-padding:10px;
-box-sizing:border-box;
-}
+	.sidebar{
+	float:right;
+	width:30%;
+	background-color:blue;
+	color:white;
+	padding:10px;
+	box-sizing:border-box;}
 
 
 .fade-in-text {
-  display: inline-block;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 150px;
-  color: black;
-  animation: fadeIn linear 2s;
-  -webkit-animation: fadeIn linear 2s;
-  -moz-animation: fadeIn linear 2s;
-  -o-animation: fadeIn linear 2s;
-  -ms-animation: fadeIn linear 2s;
-}
+display: inline-block;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+animation: fadeIn linear 2s;
+-webkit-animation: fadeIn linear 2s;
+-moz-animation: fadeIn linear 2s;
+-o-animation: fadeIn linear 2s;
+-ms-animation: fadeIn linear 2s;}
 
 @keyframes fadeIn {
   0% {opacity:0;}
