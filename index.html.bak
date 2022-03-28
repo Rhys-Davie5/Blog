@@ -21,7 +21,7 @@
 				<li><span><a href="index.html">Home</a></span></li>
                 <li><span><a href="about.html">About</a></span></li>
                 <li><span><a href="">Work</a></span></li>
-                <li><span><a href="">History</a></span></li>
+                <li><span><a href="">Where are we</a></span></li>
                 <li><span><a href="">Contact</a></span></li>
             </nav>
         </div>
@@ -29,24 +29,20 @@
     <!-- End of the header --> 
 	
 <!-- Main text -->
-
 <br>
 <br>
 <br>
 <br>
-
 <div class="main">
-<div class="fade-in-text">
+<div class="fade">
 	<h1>  Don't stop the music! </h1>
 	</section>
 </div>
-</div>
-		
+</div>	
 <!-- Main text end -->
 	
 	<div class="main-footer">
 	<p> Copyright &copy: 2022 Rhys Davies </p>
-	</footer>
 	</div>
 	
 

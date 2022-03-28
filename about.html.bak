@@ -17,42 +17,45 @@
                     <img src="logo.png" alt="Spotify logo">
                 </div>
             </div>
-			
             <nav>
 				<li><span><a href="index.html">Home</a></span></li>
                 <li><span><a href="about.html">About</a></span></li>
                 <li><span><a href="">Work</a></span></li>
-                <li><span><a href="">History</a></span></li>
+                <li><span><a href="">Where are we</a></span></li>
                 <li><span><a href="">Contact</a></span></li>
             </nav>
         </div>
     </header>
     <!-- End of the header --> 
 	
+	
 <!-- Main text -->
 
-<div class="fade-in-text">
-	<h1>  About Spotify </h1>
-	</section>
+
+<div class="heading">
+<div class="fade">
+	<h1>About Spotify</h1>
 </div>
-</div>
-		
+</div>	
 <!-- Main text end -->
-	
-	<div class="main-footer">
-	<p> Copyright &copy: 2022 Rhys Davies </p>
-	</footer>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+<div class="maintext">
+<div class="fade">
+<p> Spotify is a Swedish audio streaming and media services provider founded on 23 April 2006 by Daniel Ek and Martin Lorentzon. It is one of the largest music streaming service providers with over 406 million monthly active users, including 180 million paying subscribers, as of December 2021. </p>
+<br>
+<img src="Spotify.png" style="width:600px;height:600px;">
+</div>
+
+
+
+
+
+
+
+<!-- Main footer -->
+<div class="main-footer">
+<p> Copyright &copy: 2022 Rhys Davies </p>
+</div>
 </body>
 </html>
+<!-- Main footer end -->
