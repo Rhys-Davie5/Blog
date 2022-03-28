@@ -14,15 +14,15 @@
         <div class="inner">
             <div class="logo">
                 <div>
-                    <img src="logo.png" alt="Spotify logo">
+                    <img src="images/logo.png" alt="Spotify logo">
                 </div>
             </div>
             <nav>
 				<li><span><a href="index.html">Home</a></span></li>
                 <li><span><a href="about.html">About</a></span></li>
-                <li><span><a href="">Work</a></span></li>
-                <li><span><a href="">Where are we</a></span></li>
-                <li><span><a href="">Contact</a></span></li>
+                <li><span><a href="work.html">Work</a></span></li>
+                <li><span><a href="wherearewe.html">Where are we</a></span></li>
+                <li><span><a href="contact.html">Contact</a></span></li>
             </nav>
         </div>
     </header>
@@ -33,13 +33,19 @@
 <br>
 <br>
 <br>
-<div class="main">
+<div class="bigtext">
 <div class="fade">
 	<h1>  Don't stop the music! </h1>
 	</section>
 </div>
 </div>	
 <!-- Main text end -->
+	
+
+	
+	
+	
+	
 	
 	<div class="main-footer">
 	<p> Copyright &copy: 2022 Rhys Davies </p>
