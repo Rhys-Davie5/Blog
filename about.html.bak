@@ -19,7 +19,7 @@
             </div>
             <nav>
 				<li><span><a href="index.html">Home</a></span></li>
-                <li><span><a href="about.html">About</a></span></li>
+                <li><span><a href="about.html"class="button">About</a></span></li>
                 <li><span><a href="work.html">Work</a></span></li>
                 <li><span><a href="wherearewe.html">Where are we</a></span></li>
                 <li><span><a href="contact.html">Contact</a></span></li>
@@ -41,9 +41,11 @@
 <div class="fade">
 <p> Spotify is a Swedish audio streaming and media services provider founded on 23 April 2006 by Daniel Ek and Martin Lorentzon. It is one of the largest music streaming service providers with over 406 million monthly active users, including 180 million paying subscribers, as of December 2021. </p>
 <br>
-<img src="images/Spotify.png" style="max-width:50%;height:auto;">
+<div class="maintext">
+<img src="images/Spotify.png" style="max-width:100px;height:500px;">
 </div>
-
+</div>
+</div>
 
 
 
