@@ -162,6 +162,12 @@ header nav .button:hover{
 @-ms-keyframes fadeIn {
   0% {opacity:0;}}
 @media (max-width:770px){
+
+header{
+background:transparent;
+}	
+	
+	
 header{
     width: 100px;
     height: 100px;
