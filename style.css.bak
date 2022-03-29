@@ -173,22 +173,22 @@ header nav .button:hover{
 	font-size: 60px;}
 	
 .heading{
-	float:right;
+	float:left;
 	width:100%;
 	padding:15px;
 	margin:auto;
 	overflow:hidden;
 	box-sizing:border-box;
-	text-align:center;}
+	text-align:left;}
 	
 .maintext{
 	float:left;
 	width:100%;
 	padding:10px;
-	margin:auto;
+	margin:0px;
 	overflow:hidden;
 	box-sizing:border-box;
-	text-align:center;}
+	text-align:left;}
 	
 .fade-in-text {
 	display: inline-block;
