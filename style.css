@@ -87,7 +87,7 @@ header nav .button:hover{
 	padding:0px;
 	margin:10px;
 	font-size: 80px;
-	padding-top:8%}
+	padding-top:15%}
 	
 .heading{
 	float:center;
@@ -212,7 +212,7 @@ header nav.button{
     padding: 1px 1px;
     border-radius: 4px;}
 	header nav .button:hover{
-    filter: brightness(1.05);}
+    filter: brightness(0.06);}
 	
 
 .heading{
