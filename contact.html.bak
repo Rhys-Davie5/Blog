@@ -22,7 +22,7 @@
                 <li><span><a href="about.html">About</a></span></li>
                 <li><span><a href="">Work</a></span></li>
                 <li><span><a href="wherearewe.html">Where are we</a></span></li>
-                <li><span><a href="">Contact</a></span></li>
+                <li><span><a href=""class="button">Contact</a></span></li>
             </nav>
         </div>
     </header>
@@ -32,19 +32,110 @@
 <!-- Main text -->
 <div class="heading">
 <div class="fade">
-	<h1>About Spotify</h1>
+	<h1>Contact Us</h1>
 </div>
 </div>	
 <!-- Main text end -->
 
-<div class="maintext">
-<div class="fade">
-<p> Spotify is a Swedish audio streaming and media services provider founded on 23 April 2006 by Daniel Ek and Martin Lorentzon. It is one of the largest music streaming service providers with over 406 million monthly active users, including 180 million paying subscribers, as of December 2021. </p>
-<br>
-<img src="images/Spotify.png" style="width:600px;height:auto;">
+<style>
+input[type=text], select, textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  resize: vertical;
+  color:black;
+  float: center;}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  }
+
+input[type=submit] {
+  background-color:#1DB954 ;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;}
+  
+input[type=submit]:hover {
+  background-color:#13e85e ;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px;
+  padding-top: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 770px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname"><strong>First Name</strong></label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname"><strong>Last Name</strong></label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country"><strong>Country</strong></label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country" placeholder="Country">
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="Canada">Canada</option>
+        <option value="USA">USA</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject"><strong>What are you contacting us about?</strong></label>
+    </div>
+    <div class="col-75">
+      <textarea id="label" name="What are you contacting us about?" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
 </div>
 
-
+<br>
 
 
 
