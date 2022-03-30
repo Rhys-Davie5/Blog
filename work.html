@@ -7,6 +7,40 @@
 	<link rel="icon" type="image/x-icon" href="images/Spotify.png">
     <link rel="stylesheet" href="style.css">
     <title>Spotify</title>
+	
+	<style>
+table {
+  
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #4285F4;
+  color:black;
+}
+
+tr:nth-child(odd) {
+  background-color:#1DB954;
+  color:black;
+}
+
+@media (max-width:770px){
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 4px;
+}
+
+</style>
+	
 </head>
 <body>
     <!-- Start of the header -->
@@ -20,9 +54,9 @@
             <nav>
 				<li><span><a href="index.html">Home</a></span></li>
                 <li><span><a href="about.html">About</a></span></li>
-                <li><span><a href=""class="button">Work</a></span></li>
+                <li><span><a href="work.html"class="button">Work</a></span></li>
                 <li><span><a href="wherearewe.html">Where are we</a></span></li>
-                <li><span><a href="">Contact</a></span></li>
+                <li><span><a href="contact.html">Contact</a></span></li>
             </nav>
         </div>
     </header>
@@ -42,19 +76,43 @@
 <h1> We offer many different positions here at Spotify here </h1>
 <br>
 
-</div>
-</div>
-
-<div class="row">
-  <div class="column">
-    <img src="images/Spotify.png" alt="Snow" style="width:100%;">
-  </div>
-  <div class="column">
-    <img src="images/Spotify.png" alt="Forest" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/Spotify.png" alt="Mountains" style="width:100%">
-  </div>
+<table>
+  <tr>
+    <th>Job Role</th>
+    <th>Salary</th>
+    <th>Online or in person</th>
+  </tr>
+  <tr>
+    <td>Senior Backend Engineer</td>
+    <td>£60,000</td>
+    <td>Online</td>
+  </tr>
+  <tr>
+    <td>Site Reliability Engineer</td>
+    <td>£73,000</td>
+    <td>in person</td>
+  </tr>
+  <tr>
+    <td>Senior Product Manager</td>
+    <td>£89,000</td>
+    <td>Online and in person</td>
+  </tr>
+  <tr>
+    <td>C++ Engineer</td>
+    <td>£50,000</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>ML Engineer</td>
+    <td>£100,000</td>
+    <td>Online</td>
+  </tr>
+  <tr>
+    <td>Senior Product Operations Specialist</td>
+    <td>£110,000</td>
+    <td>Online and in person</td>
+  </tr>
+</table>
 </div>
 </div>
 
