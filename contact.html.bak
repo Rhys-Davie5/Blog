@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/x-icon" href="images/Spotify.png">
     <link rel="stylesheet" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
     <title>Spotify</title>
 </head>
 <body>
@@ -37,6 +38,7 @@
 </div>	
 <!-- Main text end -->
 
+<div class="fade">
 <style>
 input[type=text], select, textarea {
   width: 90%;
@@ -134,7 +136,7 @@ input[type=submit]:hover {
   </div>
   </form>
 </div>
-
+</div>
 <br>
 
 

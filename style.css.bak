@@ -4,7 +4,9 @@
     padding: 0px;
     list-style: none;
     text-decoration: none;
-	color:white;}
+	color:white;
+	font-family:font-family;
+	src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');}
 	
 header{
 background:black;
@@ -69,8 +71,6 @@ header nav span {
     vertical-align: middle;}
 header nav a{
     color:white;} /* This turn the link text a different colour */
-	
-
 	
 header nav .button{
     background-color: #1ab26b; /* This HEX is the color of the 3D button */
@@ -142,14 +142,12 @@ header nav .button:hover{
 	text-align: center;
 	font-size: 20px;}
 .fade{
-	
 	font-family: Arial, Helvetica, sans-serif;
-	color: transparent;
-	animation: fadeIn linear 2s;
-	-webkit-animation: fadeIn linear 2s;
-	-moz-animation: fadeIn linear 2s;
-	-o-animation: fadeIn linear 2s;
-	-ms-animation: fadeIn linear 2s;}
+	animation: fadeIn linear 1s;
+	-webkit-animation: fadeIn linear 1s;
+	-moz-animation: fadeIn linear 1s;
+	-o-animation: fadeIn linear 1s;
+	-ms-animation: fadeIn linear 1s;}
 @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}}
@@ -166,11 +164,18 @@ header nav .button:hover{
   0% {opacity:0;}}
   
 
-	
-  
-  
+.column {
+  float: cemter;
+  width: 33.33%;
+  padding: 5px;
 }
-  
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
   
   
   
