@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/x-icon" href="images/Spotify.png">
+	<link rel="icon" type="image/x-icon" href="../images/Spotify.png">
     <link rel="stylesheet" href="style.css">
     <title>Spotify</title>
 </head>
@@ -14,15 +14,15 @@
         <div class="inner">
             <div class="logo">
                 <div>
-                    <img src="images/logo.png" alt="Spotify logo">
+                    <img src=".//images/logo.png" alt="Spotify logo">
                 </div>
             </div>
             <nav>
 				<li><span><a href="../index.html">Home</a></span></li>
-                <li><span><a href="assets/about.html">About</a></span></li>
-                <li><span><a href="assets/work.html">Work</a></span></li>
-                <li><span><a href="assets/wherearewe.html"class="button">Where are we</a></span></li>
-                <li><span><a href="assets/contact.html">Contact</a></span></li>
+                <li><span><a href="about.html">About</a></span></li>
+                <li><span><a href="work.html">Work</a></span></li>
+                <li><span><a href="wherearewe.html"class="button">Where are we</a></span></li>
+                <li><span><a href="contact.html">Contact</a></span></li>
             </nav>
         </div>
     </header>
