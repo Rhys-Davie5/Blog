@@ -52,11 +52,11 @@ td, th {
                 </div>
             </div>
             <nav>
-				<li><span><a href="index.html">Home</a></span></li>
-                <li><span><a href="about.html">About</a></span></li>
-                <li><span><a href="work.html"class="button">Work</a></span></li>
-                <li><span><a href="wherearewe.html">Where are we</a></span></li>
-                <li><span><a href="contact.html">Contact</a></span></li>
+				<li><span><a href="../index.html">Home</a></span></li>
+                <li><span><a href="assets/about.html">About</a></span></li>
+                <li><span><a href="assets/work.html"class="button">Work</a></span></li>
+                <li><span><a href="assets/wherearewe.html">Where are we</a></span></li>
+                <li><span><a href="assets/contact.html">Contact</a></span></li>
             </nav>
         </div>
     </header>
@@ -73,7 +73,7 @@ td, th {
 
 <div class="maintext">
 <div class="fade">
-<h1> We offer many different positions here at Spotify here </h1>
+<h1> We offer many different positions here at Spotify</h1>
 <br>
 
 <table>

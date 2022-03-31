@@ -72,7 +72,7 @@ header nav a{
 	
 header nav .button{
     background-color: #1ab26b; /* This HEX is the color of the 3D button */
-    color: #000000;
+    color:black;
     padding: 10px 10px;
     border-radius: 4px;
 	font-weight: bold;}
