@@ -4,8 +4,8 @@
     padding: 0px;
     list-style: none;
     text-decoration: none;
-	font-family:Open Sans;
-	src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');}
+	font-family:Arial;
+	}
 	
 header{
 background:black;
@@ -85,7 +85,7 @@ header nav .button:hover{
 	padding:0px;
 	margin:10px;
 	font-size: 80px;
-	padding-top:10%}
+	padding-top:6%}
 	
 .heading{
 	float:center;
