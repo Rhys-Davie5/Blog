@@ -48,7 +48,9 @@ td, th {
         <div class="inner">
             <div class="logo">
                 <div>
+				<a href="home.html">
                     <img src="images/logo.png" alt="Spotify logo">
+					</a>
                 </div>
             </div>
             <nav>
@@ -73,7 +75,7 @@ td, th {
 
 <div class="maintext">
 <div class="fade">
-<h1> We offer many different positions here at Spotify here </h1>
+<h1> We offer many different positions here at Spotify</h1>
 <br>
 
 <table>

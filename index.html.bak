@@ -6,18 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/x-icon" href="images/Spotify.png">
     <link rel="stylesheet" href="style.css">
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
     <title>Spotify</title>
 </head>
 <body>
     <!-- Start of the header -->
     <header>
 
+
         <div class="inner">
+		
             <div class="logo">
                 <div>
+				<a href="home.html">
                     <img src="images/logo.png" alt="Spotify logo">
                 </div>
+				</a>
             </div>
 		
             <nav>
