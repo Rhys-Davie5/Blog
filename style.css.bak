@@ -4,8 +4,8 @@
     padding: 0px;
     list-style: none;
     text-decoration: none;
-	font-family:font-family;
-	src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');}
+	font-family:Arial;
+	}
 	
 header{
 background:black;
@@ -14,7 +14,7 @@ background:black;
 	
 body{
 background: linear-gradient(-45deg, #1DB954, #4285F4, #23d5ab);
-background-size: 400% 400%;
+background-size: 320% 320%;
 animation: gradient 10s ease infinite;
 height: 100vh;
 color:white;
@@ -72,7 +72,7 @@ header nav a{
 	
 header nav .button{
     background-color: #1ab26b; /* This HEX is the color of the 3D button */
-    color: #000000;
+    color:black;
     padding: 10px 10px;
     border-radius: 4px;
 	font-weight: bold;}
@@ -85,7 +85,7 @@ header nav .button:hover{
 	padding:0px;
 	margin:10px;
 	font-size: 80px;
-	padding-top:15%}
+	padding-top:6%}
 	
 .heading{
 	float:center;
