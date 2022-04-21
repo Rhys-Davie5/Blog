@@ -3,9 +3,13 @@
     margin:0px;
     padding: 0px;
     list-style: none;
+<<<<<<< Updated upstream
     text-decoration: none;
 	font-family:font-family;
 	src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');}
+=======
+    text-decoration: none;}
+>>>>>>> Stashed changes
 	
 header{
 background:black;
@@ -41,7 +45,11 @@ header .inner{
     height: 100%;
     display: block;
     margin: 0 auto;
+<<<<<<< Updated upstream
 	float: center;}
+=======
+	}
+>>>>>>> Stashed changes
 	
 header .logo{
     display: table;
@@ -80,7 +88,10 @@ header nav .button:hover{
     filter: brightness(2.0);}
 
 .bigtext{
+<<<<<<< Updated upstream
 	float:center;
+=======
+>>>>>>> Stashed changes
 	text-align:center;
 	padding:0px;
 	margin:10px;
@@ -88,7 +99,10 @@ header nav .button:hover{
 	padding-top:15%}
 	
 .heading{
+<<<<<<< Updated upstream
 	float:center;
+=======
+>>>>>>> Stashed changes
 	width:100%;
 	padding:15px;
 	margin:auto;
@@ -105,7 +119,10 @@ header nav .button:hover{
 	overflow:hidden;
 	box-sizing:border-box;}
 .maintext{
+<<<<<<< Updated upstream
 	float:center;
+=======
+>>>>>>> Stashed changes
 	width:50%;
 	padding:10px;
 	margin:auto;
